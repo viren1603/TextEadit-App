@@ -1,3 +1,29 @@
 body {
   transition: all 1s;
 }
+.colorOnChangBox {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.openColorPicker {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* background-color: rgb(183, 30, 30); */
+  margin-right: 20px;
+  font-size: 30px;
+  line-height: 0;
+  margin-left: 495%;
+  cursor: pointer;
+  text-align: center;
+}
+.colorCode {
+  position: relative;
+}
+.colorCode1 {
+  position: absolute;
+  z-index: 1;
+  left: 57%;
+}
